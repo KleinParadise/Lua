@@ -94,7 +94,7 @@ for k,v in pairs(tCacheWeakTab) do
 end
 ```
 
-##### lua weak表的应用之二:设置默认值的表
+##### lua weak表的应用之三:设置默认值的表
 ```lua
 local defaults = {}
 setmetatable(defaults, {_mode = "k"})
